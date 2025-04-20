@@ -1,0 +1,461 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Quizlet</title>
+  <link rel="stylesheet" <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap"
+    rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+    rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="styles/style1.css">
+</head>
+
+<body>
+  <header id="Navigation-bar">
+    <nav id="nav-bar">
+      <div class="Content">
+        <img src="images/Quizlet-Logo.png" class="image" alt="logo">
+      </div>
+      <div class="Nav-bar-1">
+        <ul class="nav-bar-1">
+          <li><a href="index2.html">Study tools <span class="icons"><i class="fa-solid fa-angle-down"></i></span></a>
+          </li>
+          <li><a href="index2.html">Subjects <span class="icons"><i class="fa-solid fa-angle-down"></i></span></a></li>
+        </ul>
+      </div>
+      <div class="searching-bar">
+        <i class="fa-solid fa-magnifying-glass"></i>
+        <input type="text" placeholder="Search for practice tests" />
+      </div>
+      <div class="nav-bar-1">
+        <ul class="nav-bar-2">
+          <li><a href="index2.html" id="a1">+ Create</a></li>
+          <li><a href="index2.html" id="a2">Log in</a></li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+
+  <div class="part1">
+    <div class="part1-content">
+      <p>How do you want to study?</p>
+    </div>
+    <div class="part2-content">
+      <p>Master whatever you’re learning with Quizlet’s interactive flashcards, practice tests</p>
+    </div>
+    <div class="part2a-content">
+      <p>and study activities.</p>
+    </div>
+    <button class="part3-content"><a href="index2.html" style="color: white;">Sign up for free</a> </button>
+    <div class="part4-content">
+      <p id="part4-content">I'm a teacher</p>
+    </div>
+  </div>
+  <div id="part2">
+    <button class="arrow-left" onclick="moveSlide(-1)">❮</button>
+    <div class="part2">
+      <div class="part2b" id="part2b">
+        <div class=" item part-1-content">Expert Solutions
+          <img src="images/img1.avif" alt="first img" class="img">
+        </div>
+        <div class=" item part-2-content">Learn
+          <img src="images/img2.avif" alt="second img" class="img1">
+        </div>
+        <div class=" item part-3-content">Study Guides
+          <img src="images/img3.avif" alt="third img" class="img1">
+        </div>
+        <div class=" item part-4-content ">Flashcards
+          <img src="images/img4.avif" alt="fourth img" class="img1">
+        </div>
+        <div class=" item part-5-content">Practice Tests
+          <img src="images/img5.avif" alt="fifth img" class="img1">
+        </div>
+      </div>
+    </div>
+    <button class="arrow-right" onclick="moveSlide(1)">❯</button>
+  </div>
+  <div id="section">
+    <div class="part3">
+      <div id="part1a">
+        <img src="images/worldmap.avif" alt="worldmap" class="worldmap">
+        <p>Every class, every test, one ultimate study app</p>
+        <p>Create your own flashcards or find sets made by teachers, students and experts. Study them anytime, anywhere
+          with our free app.</p>
+        <span>
+          <img src="images/appstore-logo.png" alt="appstore-logo" class="appstore-logo">
+          <img src="images/playstore-logo.webp" alt="playstore-logo" class="playstore-logo">
+        </span>
+      </div>
+    </div>
+    <div class="part4">
+      <div class="part2a">
+        <img src="images/Biology.avif" alt="Biology" class="Biology" />
+      </div>
+
+      <div class="text-part">
+        <p>Make studying class material quick and easy</p>
+        <p>
+          Turn your slides, videos and notes into flashcard sets, practice tests and study guides.
+        </p>
+        <button class="button1"><a href="index2.html" style="color: white;">Try it out</a></button>
+      </div>
+    </div>
+    <div class="part5">
+      <div id="part5a">
+        <img src="images/MCQ.avif" alt="MCQ" class="MCQ">
+        <p>Prepare for tests on any subject</p>
+        <p>Memorise anything with personalised practice tests and revision sessions in Learn. 98% of students say
+          Quizlet has improved their comprehension.</p>
+        <button class="button1"><a href="index2.html" style="color: white;">Get Started</a></button>
+
+      </div>
+    </div>
+    <div class="part6">
+      <div id="part6">
+        <img src="images/Teacher.avif" alt="teacher" class="teacher">
+        <h2>TEACHERS</h2>
+        <p>Empower your students</p>
+        <p>Help every student learn anything with confidence. With free flashcard sets, study modes and in-class games
+          like Quizlet Live, you can create a more engaged classroom instantly.</p>
+        <button class="button1 btn"><a href="index2.html" style="color: white;">Sign up as a teacher</a></button>
+      </div>
+      <p class="para6">See how teachers uses Quizlet</p>
+    </div>
+  </div>
+  <div id="part7cards">
+    <div id="text">
+      <h3>Popular flashcard sets</h3>
+    </div>
+    <div id="part7-cards">
+      <div class="part7-cards card-items">
+        <div class="cards">
+          <div class="c1">Procurement and Tendering L1 - Iona</div>
+          <p class="num">73 terms</p>
+          <img src="images/profile1.jpg" alt="profile1" class="p1">
+          <p id="p1">sumi_prasobh</p>
+        </div>
+        <div class="cards">
+          <div class="c1">Evolution of Early Hominids and Their Ch…</div>
+          <p class="num">9 terms</p>
+          <img src="images/profile2.png" alt="profile2" class="p1">
+          <p id="p1">fathemamuhammad2007</p>
+        </div>
+        <div class="cards">
+          <div class="c1">Exercises on Nouns and Their Types</div>
+          <p class="num">21 terms</p>
+          <img src="images/profile3.png" alt="profile3" class="p1">
+          <p id="p1">rajnidheer807</p>
+        </div>
+        <div class="cards">
+          <div class="c1">Coal Types and Distribution Across Conti…</div>
+          <p class="num">36 terms</p>
+          <img src="images/profile4.jpg" alt="profile4" class="p1">
+          <p id="p1">deepika1dhaka</p>
+        </div>
+        <div class="cards">
+          <div class="c1">NEET</div>
+          <p class="num">8 terms</p>
+          <img src="images/profile5.jpg" alt="profile5" class="p1">
+          <p id="p1">chiragjstudent</p>
+        </div>
+        <div class="cards">
+          <div class="c1">chemical reactions :3</div>
+          <p class="num">4 terms</p>
+          <img src="images/profile6.jpg" alt="profile6" class="p1">
+          <p id="p1">hellokittyglazer</p>
+        </div>
+      </div>
+
+      <div class="part7a-cards card-items active">
+        <div class="cards">
+          <div class="c1">Procurement and Tendering L1 - Iona</div>
+          <p class="num">73 terms</p>
+          <img src="images/profile1.jpg" alt="profile1" class="p1">
+          <p id="p1">sumi_prasobh</p>
+        </div>
+        <div class="cards">
+          <div class="c1">Evolution of Early Hominids and Their Ch…</div>
+          <p class="num">9 terms</p>
+          <img src="images/profile2.png" alt="profile2" class="p1">
+          <p id="p1">fathemamuhammad2007</p>
+        </div>
+        <div class="cards">
+          <div class="c1">Exercises on Nouns and Their Types</div>
+          <p class="num">36 terms</p>
+          <img src="images/profile3.png" alt="profile3" class="p1">
+          <p id="p1">deepika1dhaka</p>
+        </div>
+        <div class="cards">
+          <div class="c1">Coal Types and Distribution Across Conti…</div>
+          <p class="num">36 terms</p>
+          <img src="images/profile4.jpg" alt="profile4" class="p1">
+          <p id="p1">deepika1dhaka</p>
+        </div>
+        <div class="cards">
+          <div class="c1">NEET</div>
+          <p class="num">8 terms</p>
+          <img src="images/profile5.jpg" alt="profile5" class="p1">
+          <p id="p1">chiragjstudent</p>
+        </div>
+        <div class="cards">
+          <div class="c1">chemical reactions :3</div>
+          <p class="num">4 terms</p>
+          <img src="images/profile6.jpg" alt="profile6" class="p1">
+          <p id="p1">hellokittyglazer</p>
+        </div>
+      </div>
+
+      <div class="part7b-cards card-items">
+        <div class="cards">
+          <div class="c1">Procurement and Tendering L1 - Iona</div>
+          <p class="num">73 terms</p>
+          <img src="images/profile1.jpg" alt="profile1" class="p1">
+          <p id="p1">sumi_prasobh</p>
+        </div>
+        <div class="cards">
+          <div class="c1">Evolution of Early Hominids and Their Ch…</div>
+          <p class="num">9 terms</p>
+          <img src="images/profile2.png" alt="profile2" class="p1">
+          <p id="p1">fathemamuhammad2007</p>
+        </div>
+        <div class="cards">
+          <div class="c1">Exercises on Nouns and Their Types</div>
+          <p class="num">21 terms</p>
+          <img src="images/profile3.png" alt="profile3" class="p1">
+          <p id="p1">rajnidheer807</p>
+        </div>
+        <div class="cards">
+          <div class="c1">Coal Types and Distribution Across Conti…</div>
+          <p class="num">36 terms</p>
+          <img src="images/profile4.jpg" alt="profile4" class="p1">
+          <p id="p1">deepika1dhaka</p>
+        </div>
+        <div class="cards">
+          <div class="c1">NEET</div>
+          <p class="num">8 terms</p>
+          <img src="images/profile5.jpg" alt="profile5" class="p1">
+          <p id="p1">chiragjstudent</p>
+        </div>
+        <div class="cards">
+          <div class="c1">chemical reactions :3</div>
+          <p class="num">4 terms</p>
+          <img src="images/profile6.jpg" alt="profile6" class="p1">
+          <p id="p1">hellokittyglazer</p>
+        </div>
+      </div>
+
+      <div class="part7c-cards card-items">
+        <div class="cards">
+          <div class="c1">Procurement and Tendering L1 - Iona</div>
+          <p class="num">73 terms</p>
+          <img src="images/profile1.jpg" alt="profile1" class="p1">
+          <p id="p1">sumi_prasobh</p>
+        </div>
+        <div class="cards">
+          <div class="c1">Evolution of Early Hominids and Their Ch…</div>
+          <p class="num">9 terms</p>
+          <img src="images/profile2.png" alt="profile2" class="p1">
+          <p id="p1">fathemamuhammad2007</p>
+        </div>
+        <div class="cards">
+          <div class="c1">Exercises on Nouns and Their Types</div>
+          <p class="num">21 terms</p>
+          <img src="images/profile3.png" alt="profile3" class="p1">
+          <p id="p1">rajnidheer807</p>
+        </div>
+        <div class="cards">
+          <div class="c1">Coal Types and Distribution Across Conti…</div>
+          <p class="num">36 terms</p>
+          <img src="images/profile4.jpg" alt="profile4" class="p1">
+          <p id="p1">deepika1dhaka</p>
+        </div>
+        <div class="cards">
+          <div class="c1">NEET</div>
+          <p class="num">8 terms</p>
+          <img src="images/profile5.jpg" alt="profile5" class="p1">
+          <p id="p1">chiragjstudent</p>
+        </div>
+        <div class="cards">
+          <div class="c1">chemical reactions :3</div>
+          <p class="num">4 terms</p>
+          <img src="images/profile6.jpg" alt="profile6" class="p1">
+          <p id="p1">hellokittyglazer</p>
+        </div>
+      </div>
+
+      <div class="part7d-cards card-items">
+        <div class="cards">
+          <div class="c1">Procurement and Tendering L1 - Iona</div>
+          <p class="num">73 terms</p>
+          <img src="images/profile1.jpg" alt="profile1" class="p1">
+          <p id="p1">sumi_prasobh</p>
+        </div>
+        <div class="cards">
+          <div class="c1">Evolution of Early Hominids and Their Ch…</div>
+          <p class="num">9 terms</p>
+          <img src="images/profile2.png" alt="profile2" class="p1">
+          <p id="p1">fathemamuhammad2007</p>
+        </div>
+        <div class="cards">
+          <div class="c1">Exercises on Nouns and Their Types</div>
+          <p class="num">21 terms</p>
+          <img src="images/profile3.png" alt="profile3" class="p1">
+          <p id="p1">rajnidheer807</p>
+        </div>
+        <div class="cards">
+          <div class="c1">Coal Types and Distribution Across Conti…</div>
+          <p class="num">36 terms</p>
+          <img src="images/profile4.jpg" alt="profile4" class="p1">
+          <p id="p1">deepika1dhaka</p>
+        </div>
+        <div class="cards">
+          <div class="c1">NEET</div>
+          <p class="num">8 terms</p>
+          <img src="images/profile5.jpg" alt="profile5" class="p1">
+          <p id="p1">chiragjstudent</p>
+        </div>
+        <div class="cards">
+          <div class="c1">chemical reactions :3</div>
+          <p class="num">4 terms</p>
+          <img src="images/profile6.jpg" alt="profile6" class="p1">
+          <p id="p1">hellokittyglazer</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="arrow">
+    <button class="arrleft" onclick="moveCarousel2(-1)"><i class="fa-solid fa-arrow-left"></i></button>
+    <div class="counter" id="card-counter">1/5</div>
+    <button class="arrright" onclick="moveCarousel2(1)"><i class="fa-solid fa-arrow-right"></i></button>
+  </div>
+  <footer>
+    <div class="footer">
+      <ul class="aboutus">
+        <li class="list-content"><a href="index2.html" class="f-1 footer1-content">About us</a></li>
+        <li class="list-content"><a href="index2.html" class="ft-2 footer1-content1">About Quizlet</a></li>
+        <li class="list-content"><a href="index2.html" class="ft-3 footer1-content1">How Quizlet works</a></li>
+      </ul>
+      <ul class="forstudents">
+        <li class="list-content"><a href="index2.html" class="f-2 footer1-content">For Students</a></li>
+        <li class="list-content"><a href="index2.html" class="ft-4 footer1-content1">Flashcards</a></li>
+        <li class="list-content"><a href="index2.html" class="ft-5 footer1-content1">Test</a></li>
+        <li class="list-content"><a href="index2.html" class="ft-6 footer1-content1">Learn</a></li>
+        <li class="list-content"><a href="index2.html" class="ft-7 footer1-content1">Solutions</a></li>
+        <li class="list-content"><a href="index2.html" class="ft-8 footer1-content1">Quizlet plus</a></li>
+        <li class="list-content"><a href="index2.html" class="ft-9 footer1-content1">Study Guides</a></li>
+        <li class="list-content"><a href="index2.html" class="ft-10 footer1-content1">Pomodoro Timer</a></li>
+      </ul>
+      <ul class="forteachers">
+        <li class="list-content"><a href="index2.html" class="f-3 footer1-content">For Teachers</a></li>
+        <li class="list-content"><a href="index2.html" class="ft-11 footer1-content1">Live</a></li>
+        <li class="list-content"><a href="index2.html" class="ft-12 footer1-content1">Blog</a></li>
+        <li class="list-content"><a href="index2.html" class="ft-13 footer1-content1">Quizlet plus for teachers</a></li>
+      </ul>
+      <ul class="resources">
+        <li class="list-content"><a href="index2.html" class="f-4 footer1-content">Resources</a></li>
+        <li class="list-content"><a href="index2.html" class="ft-14 footer1-content1">Help center</a></li>
+        <li class="list-content"><a href="index2.html" class="ft-15 footer1-content1">Sign up</a></li>
+        <li class="list-content"><a href="index2.html" class="ft-16 footer1-content1">Honor code </a></li>
+        <li class="list-content"><a href="index2.html" class="ft-17 footer1-content1">Community guidelines</a></li>
+        <li class="list-content"><a href="index2.html" class="ft-18 footer1-content1">Privacy</a></li>
+        <li class="list-content"><a href="index2.html" class="ft-19 footer1-content1">Terms</a></li>
+        <li class="list-content"><a href="index2.html" class="ft-20 footer1-content1">Ad and Cookie Policy</a></li>
+        <li class="list-content"><a href="index2.html" class="ft-21 footer1-content1">Quizlet for Schools</a></li>
+        <li class="list-content"><a href="index2.html" class="ft-22 footer1-content1">Parents</a></li>
+      </ul>
+      <ul class="languages">
+        <li class="list-content"><a href="index2.html" class="f-5 footer1-content">Languages</a></li>
+        <label for="languages"></label>
+        <select id="languages" name="lang">
+          <option value="English(USA)" class="footer1-content1">English(USA)</option>
+          <option value="Deutsch" class="footer1-content1">Deutsch</option>
+          <option value="English(UK)" class="footer1-content1">English(UK)</option>
+          <option value="Italiano" class="footer1-content1">Italiano</option>
+          <option value="Español " class="footer1-content1">Español </option>
+          <option value="Français (FR) " class="footer1-content1">Français (FR) </option>
+          <option value="Français (QC/CA) " class="footer1-content1">Français (QC/CA) </option>
+          <option value="Bahasa Indonesia " class="footer1-content1">Bahasa Indonesia</option>
+          <option value="Nederlands" class="footer1-content1">Nederlands</option>
+          <option value="polski" class="footer1-content1">polski</option>
+          <option value="Português (BR)" class="footer1-content1"> Português (BR)</option>
+          <option value="Русский" class="footer1-content1">Русский</option>
+          <option value="Türkçe" class="footer1-content1">Türkçe</option>
+          <option value="Українська" class="footer1-content1">Українська</option>
+          <option value="Tiếng Việt " class="footer1-content1"> Tiếng Việt</option>
+          <option value="한국어 " class="footer1-content1">한국어</option>
+          <option value="中文(简体) " class="footer1-content1"> 中文(简体)</option>
+          <option value="中文(繁體) " class="footer1-content1">中文(繁體) </option>
+          <option value="日本語 " class="footer1-content1"> 日本語</option>
+        </select>
+      </ul>
+      <div class="f">
+        <img src="images/GetThisApp.png" alt="qr scanner" class="scanner">
+      </div>
+    </div>
+  </footer>
+  <footer>
+    <div class="footer2">
+      <h2 id="Country">Country</h2>
+      <ul class="footer2-content">
+        <li><a href="index2.html" class="f2">United States</a></li>
+        <li><a href="index2.html" class="f2">Canada</a></li>
+        <li><a href="index2.html" class="f2">United Kingdom</a></li>
+        <li><a href="index2.html" class="f2">Australia</a></li>
+        <li><a href="index2.html" class="f2">New Zealand</a></li>
+        <li><a href="index2.html" class="f2">Germany</a></li>
+        <li><a href="index2.html" class="f2">France</a></li>
+        <li><a href="index2.html" class="f2">Spain</a></li>
+        <li><a href="index2.html" class="f2">Italy</a></li>
+        <li><a href="index2.html" class="f2">Japan</a></li>
+        <li><a href="index2.html" class="f2">South Korea</a></li>
+        <li><a href="index2.html" class="f2">India</a></li>
+        <li><a href="index2.html" class="f2">China</a></li>
+        <li><a href="index2.html" class="f2">Mexico</a></li>
+      </ul>
+      <ul class="footer2-content2">
+        <li><a href="index2.html" class="f2">Sweden</a></li>
+        <li><a href="index2.html" class="f2">Netherlands</a></li>
+        <li><a href="index2.html" class="f2">Switzerland</a></li>
+        <li><a href="index2.html" class="f2">Brazil</a></li>
+        <li><a href="index2.html" class="f2">Poland</a></li>
+        <li><a href="index2.html" class="f2">Turkey</a></li>
+        <li><a href="index2.html" class="f2">Ukraine</a></li>
+        <li><a href="index2.html" class="f2">Taiwan</a></li>
+        <li><a href="index2.html" class="f2">Vietnam</a></li>
+        <li><a href="index2.html" class="f2">Indonesia</a></li>
+        <li><a href="index2.html" class="f2">Philippines</a></li>
+        <li><a href="index2.html" class="f2">Russia</a></li>
+      </ul>
+      <ul class="followus">
+        <li><a href="index2.html"><img src="images/tiktok.png" alt="tiktok" id="followus"></a></li>
+        <li><a href="index2.html"><img src="images/X.png" alt="x" id="followus"></a></li>
+        <li><a href="index2.html"><img src="images/facebook.png" alt="facebook" id="followus"></a></li>
+        <li><a href="index2.html"><img src="images/instagram.png" alt="instagram" id="followus"></a></li>
+        <li><a href="index2.html"><img src="images/yt.png" alt="yt" id="followus"></a></li>
+        <li><a href="index2.html"><img src="images/linkedin.png" alt="linkedin" id="followus"></a></li>
+      </ul>
+      <ul class="footer3-content">
+        <img src="images/coppa-seal.0efe00c1.avif" alt="coppa-seal" class="coppa-seal">
+        <p class="copyright">© 2025 Quizlet, Inc.</p>
+      </ul>
+    </div>
+  </footer>
+  <script src="scripts/index1.js"></script>
+</body>
+
+</html>
