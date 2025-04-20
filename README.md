@@ -1,5 +1,5 @@
-Quizlet Clone
-Author: Prachi Nadgir
+# Quizlet Clone
+# Author: Prachi Nadgir
 
 This is a frontend-only clone of the Quizlet platform, created using HTML, CSS, and JavaScript. It recreates the basic look and functionality of Quizlet’s flashcard feature for learning and practice purposes.
 
